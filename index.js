@@ -19,33 +19,6 @@ mongoose.connect(mongoString, {
     process.exit();
 });
 
-// mongoose.connect(mongoString);
-// const database = mongoose.connection;
-
-// const connection = mongoose.createConnection( 
-//     process.env.DATABASE_URL, {
-//                   useNewUrlParser: true,
-//                   user: process.env.MONGO_INITDB_ROOT_USERNAME,
-//                   pass: process.env.MONGO_INITDB_ROOT_PASSWORD,
-//                   keepAlive: true,
-//                 })
-
-// mongoose.connect('mongodb://localhost:27017/usersdb',
-//   {
-//     useNewUrlParser: true,
-//     useFindAndModify: false,
-//     useUnifiedTopology: true
-//   }
-// );
-
-
-// database.on('error', (error) => {
-//     console.log(error)
-// })
-
-// database.once('connected', () => {
-//     console.log('Database Connected');
-// })
 const app = express();
 app.use(cors())
 app.use(express.json());

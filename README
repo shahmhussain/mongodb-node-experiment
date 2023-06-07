@@ -1,5 +1,9 @@
 Start script
 
-1) ./run.sh
-2) npm i
-3) npm run start
+1) docker-compose up
+
+Tasks: To do lists
+- Improve Structure
+- More DB collections
+- More Tests
+
