@@ -3,7 +3,11 @@ Start script
 1) docker-compose up
 
 Tasks: To do lists
+- Add Typescript
 - Improve Structure
 - More DB collections
 - More Tests
+
+Done:
+- Add Nodemon (Done)
 
